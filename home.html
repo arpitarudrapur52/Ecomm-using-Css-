@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <title>Ecommerce Site</title>
+    <style>
+        header{
+            position: sticky;
+            top: 0px;
+        }
+        @-webkit-keyframes blinker {
+            from {opacity: 1.0;}
+            to {opacity: 0.0;}
+        }
+        .blink{
+        	text-decoration: blink;
+        	-webkit-animation-name: blinker;
+        	-webkit-animation-duration: 0.6s;
+        	-webkit-animation-iteration-count:infinite;
+	        -webkit-animation-timing-function:ease-in-out;
+        	-webkit-animation-direction: alternate;
+        }
+</style>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container-fluid bg-dark text-light py-2">
+        <div class="row text-center text-md-start">
+            <div class="col-md-9">
+                <p class="mb-0"><i class="fa fa-map-marker text-success"></i> 123 Street, New York, USA | <i class="fa fa-clock-o text-success"></i> Mon-Fri: 09:00 AM - 9:00 PM</p>
+            </div>
+            <div class="col-md-3 text-md-end">
+                <p class="mb-0">
+                    <i class="fa fa-phone text-success"></i> +9019229489
+                    <a href="#" class="text-light ms-2"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="text-light ms-2"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="text-light ms-2"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" class="text-light ms-2"><i class="fa fa-instagram"></i></a>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <header class="bg-success py-3 text-white">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <h2 class="mb-0">E-commerce Cart &#128722;</h2>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="Ecommerce.html" class="nav-link text-white">HOME</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link text-white">ABOUT</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown">CATEGORY</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="mobile.html" class="dropdown-item">Mobiles</a></li>
+                                <li><a href="laptop.html" class="dropdown-item">Laptops</a></li>
+                                <li><a href="watches.html" class="dropdown-item">Watches</a></li>
+                                <li><a href="refrigirator.html" class="dropdown-item">Refrigerator</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link text-white">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="d-flex align-items-center">
+                <input type="text" class="form-control me-2" placeholder="Search">
+                <button class="btn btn-light">Login</button>
+            </div>
+        </div>
+    </header>
+    <div>
+        <img src="ecomm.jpg" alt="Not Found" width="100%" height="400px" style="margin-top: 20px;">
+    </div>
+    
+    <h2 class="text-center mt-3"><b>OUR HAPPY CLIENTS</b></h2>
+    <hr>
+    <div class="container py-4" style="background-color: rgba(128, 128, 128, 0.068);">
+        <div class="row text-center g-4">
+            <div class="col-lg-3 col-md-6">
+                <i class="fa fa-comments bg-success text-white rounded-circle p-3"></i>
+                <b class="d-block mt-2">4234</b>
+                <h3>Happy Customers</h3>
+                <p>Thank you for your amazing review! We are delighted to serve you.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <i class="fa fa-check bg-success text-white rounded-circle p-3"></i>
+                <b class="d-block mt-2">4234</b>
+                <h3>Projects Done</h3>
+                <p>We take pride in delivering excellent projects for our clients.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <i class="fa fa-bell bg-success text-white rounded-circle p-3"></i>
+                <b class="d-block mt-2">4234</b>
+                <h3>Awards Won</h3>
+                <p>We are honored to receive numerous awards for our work.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <i class="fa fa-user bg-success text-white rounded-circle p-3"></i>
+                <b class="d-block mt-2">4234</b>
+                <h3>Expert Workers</h3>
+                <p>Our team consists of experienced professionals ready to assist you.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+                <h2 class="text-primary"><b>Filter Price</b></h2>
+                <p>&#8377;<b>2000-&#8377;4000</b></p>
+                <p>&#8377;<b>3000-&#8377;6000</b></p>
+                <p>&#8377;<b>6000-&#8377;10000</b></p>
+                <h2 class="text-primary"><b><u>LAPTOPS</u></b></h2>
+                <p><b>HP</b></p>
+                <p><b>DELL</b></p>
+                <p><b>LENOVO</b></p>
+                <p><b>ACER</b></p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <h2>HP</h2>
+                <img src="https://5.imimg.com/data5/NW/KV/MY-32712236/hp-laptop.jpg" class="img-fluid" alt="HP Laptop">
+                <p>&#8377;50,000</p>
+                <a href="https://www.hp.com/us-en/shop/cat/laptops" class="btn btn-success text-white">View Specifications</a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <h2>Lenovo</h2>
+                <img src="lenovo.png" class="img-fluid" alt="Lenovo Laptop">
+                <p>&#8377;30,000</p>
+                <a href="https://en.wikipedia.org/wiki/Lenovo" class="btn btn-success text-white">View Specifications</a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+                <h2>Dell</h2>
+                <img src="https://images.jdmagicbox.com/quickquotes/images_main/2017-flagship-dell-premium-inspiron-15-6-led-backlit-hd-laptop-intel-dual-core-i3-7100u-2-4ghz-8gb-ram-128gb-ssd-dvdrw-wlan-bluetooth-hdmi-webcam-3-in-1-card-reader-maxxaudio-win-10-113434439-e1jeu.jpg" class="img-fluid" alt="Dell Laptop">
+                <p>&#8377;40,000</p>
+                <a href="https://en.wikipedia.org/wiki/Dell" class="btn btn-success text-white">View Specifications</a>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="text-center" style="margin-top: 20px; color: blue;"><b>OFFERS</b></h1>
+    <p class="text-center"><b>50% off on HDFC Credit Card</b></p>
+    <p class="text-center"><b>10% of on SBI Card</b></p>
+   <p class="text-center text-white "> <button class="btn btn-danger"><a href="dontae_fund.html" style="text-decoration: none; color: white;">Donate Fund</a></button></p>
+   <div class="container-fluid p-3  mt-5 bg-primary">
+    <div class="row">
+    <div class="col-lg-2">
+        <img src="blink.png" class="mb-3 blink" height="120" >
+    </div>
+    <div class="col-lg-10">
+        <h2 class="text-center text-warning">Hurry Up! Exclusive Mansoon OFFERS</h2>
+        <marquee scrollamount="10px" onmouseover="stop()" onmouseout="start()"><h5 class="text-white"><b>special offer upto December</b></h5></marquee>
+       </div>
+    </div>
+    </div>
+    <div class="container-fluid bg-secondary text-light py-3">
+        <div class="row align-items-center">
+            <div class="col-md-10 text-center text-md-start">
+                <h4>Get Connected With Us On Social Networks:</h4>
+            </div>
+            <div class="col-md-2 text-center text-md-end">
+                <i class="fa fa-facebook me-2"></i>
+                <i class="fa fa-twitter me-2"></i>
+                <i class="fa fa-google me-2"></i>
+                <i class="fa fa-instagram me-2"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3">
+                    <h5>COMPANY NAME</h5>
+                    <p>Organizing your footer content efficiently with rows and columns.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>PRODUCTS</h5>
+                    <p>MD Bootstrap<br>MD Wordpress<br>BrandFlow<br>Bootstrap Angular</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>USEFUL LINKS</h5>
+                    <p>Your Account<br>Become an Affiliate<br>Shipping Rates<br>Help</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>CONTACT</h5>
+                    <p><i class="fa fa-map-marker"></i> New York, NY 10012, USA<br>
+                        <i class="fa fa-envelope"></i> info@example.com<br>
+                        <i class="fa fa-phone"></i> +01 9019229489</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <div class="text-center py-3 text-primary bg-light">
+        <b>&copy; 2024 E-Commerce Online Shopping Cart | Designed & Developed by Arpita D R GIT IT Academy HUBLI</b>
+    </div>
+</body>
+</html>
